@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40755" started-at="2020-11-27T13:19:43 EST" finished-at="2020-11-27T13:20:23 EST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40755" started-at="2020-11-27T13:19:43 EST" finished-at="2020-11-27T13:20:23 EST">
+      <class name="Main.MainClass">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Main.MainClass@3a883ce7]" name="setUp" is-config="true" duration-ms="9665" started-at="2020-11-27T13:19:43 EST" finished-at="2020-11-27T13:19:52 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="check_signin_test_correct()[pri:0, instance:Main.MainClass@3a883ce7]" name="check_signin_test_correct" duration-ms="4825" started-at="2020-11-27T13:19:52 EST" finished-at="2020-11-27T13:19:57 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_signin_test_correct -->
+        <test-method status="PASS" signature="select_product()[pri:1, instance:Main.MainClass@3a883ce7]" name="select_product" duration-ms="17229" started-at="2020-11-27T13:19:57 EST" finished-at="2020-11-27T13:20:14 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_product -->
+        <test-method status="PASS" signature="check_add_to_cart_item()[pri:2, instance:Main.MainClass@3a883ce7]" name="check_add_to_cart_item" duration-ms="7346" started-at="2020-11-27T13:20:15 EST" finished-at="2020-11-27T13:20:22 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_add_to_cart_item -->
+        <test-method status="PASS" signature="check_logout_correct()[pri:3, instance:Main.MainClass@3a883ce7]" name="check_logout_correct" duration-ms="1632" started-at="2020-11-27T13:20:22 EST" finished-at="2020-11-27T13:20:23 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_logout_correct -->
+      </class> <!-- Main.MainClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
