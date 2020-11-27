@@ -16,9 +16,12 @@ public class Logout {
 		this.driver = driver;
 	}
 	
+	//sign out button click
 	public void ClickSignOut() {
 		driver.findElement(signOutLink).click();
 	}
+	
+	
 	
 	public void check_sign_out() {
 		this.ClickSignOut();

@@ -11,6 +11,7 @@ public class HomePage {
 		this.driver=driver;
 	}
 	
+	//get username 
 	public String getHomePageDashboardUserName(){
 	    System.out.println("username is: " + driver.findElement(By.xpath("//span[text()='Hello, Mittal']")).getText());
 		

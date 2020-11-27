@@ -27,9 +27,6 @@ public class MainClass {
 	AddToCart addCartObj;
 	Logout logoutObj;
 	
-
-	
- 
   @BeforeTest
   public void setUp() {
 	  System.setProperty("webdriver.chrome.driver", driverPath);
@@ -43,7 +40,7 @@ public class MainClass {
       actions.moveToElement(target).perform();
       
       driver.findElement(By.cssSelector(".nav-action-inner")).click();
-//      
+  
 //      driver.findElement(By.xpath("//span[text()='Hello, Sign in']")).click();
       
 
